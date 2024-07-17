@@ -1,21 +1,30 @@
 ﻿# streamlit_heart_attack_prediction
-Heart Attack Predictor
+###Heart Attack Predictor
 
 This project is a web application designed to predict the risk of a heart attack based on user input. The application utilizes a machine learning model to provide predictions and is built using Streamlit.
 
-Features
+Features:
+
 User-friendly interface for inputting personal health data
 Real-time prediction of heart attack risk
 Displays probabilities of low and high risk
 Supports medical professionals in making informed decisions
+
 Installation
+
 Clone the repository:
 git clone https://github.com/your-repo/heart-attack-predictor.git
+
 Navigate to the project directory:
+
 cd heart-attack-predictor
+
 Install the required dependencies:
+
 pip install -r requirements.txt
-Usage
+
+Usage:
+
 Ensure you have the heart dataset (heart.csv) in the project directory.
 
 Place the trained model (model.pkl) and the scaler (scaler.pkl) in the model directory.
@@ -23,21 +32,9 @@ Place the trained model (model.pkl) and the scaler (scaler.pkl) in the model dir
 Run the Streamlit application:
 streamlit run main.py
 Open your web browser and go to http://localhost:8501 to access the application.
-Project Structure
-css
 
-heart-attack-predictor/
-├── app/
-│   ├── assets/
-│   │   └── style.css
-├── model/
-│   ├── model.pkl
-│   └── scaler.pkl
-├── heart.csv
-├── main.py
-├── requirements.txt
-└── README.md
-Data Input
+Data Input:
+
 The application requires the following health measurements to predict heart attack risk:
 
 Age
