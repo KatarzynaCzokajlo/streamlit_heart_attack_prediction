@@ -78,3 +78,5 @@ Output: The application displays the risk of heart attack as either low or high,
 Disclaimer
 
 This application is intended to assist medical professionals in making a diagnosis. It should not be used as a substitute for professional medical advice, diagnosis, or treatment.
+
+https://appheartattackprediction-8rj5cwqnuqnrnogpzjtmeq.streamlit.app/
