@@ -123,7 +123,7 @@ def add_predictions(input_data):
 
 def main():
     st.set_page_config(
-        page_title='Lung Cancer Predictor',
+        page_title='Heart Attack Predictor',
         page_icon=':female-doctor:',
         layout="wide",
         initial_sidebar_state="expanded"
