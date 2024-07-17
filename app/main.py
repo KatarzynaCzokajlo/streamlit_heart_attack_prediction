@@ -132,7 +132,7 @@ def main():
         st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
     input_data = add_sidebar()
     with st.container():
-        st.title("Lung Cancer Predictor")
+        st.title("Heart Attack Predictor")
         
 
     col1 = st.columns(1)
