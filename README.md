@@ -1,5 +1,5 @@
 ﻿# streamlit_heart_attack_prediction
-Heart Attack Predictor
+## Heart Attack Predictor
 
 This project is a web application designed to predict the risk of a heart attack based on user input. The application utilizes a machine learning model to provide predictions and is built using Streamlit.
 
