@@ -1,5 +1,5 @@
 ﻿# streamlit_heart_attack_prediction
-###Heart Attack Predictor
+Heart Attack Predictor
 
 This project is a web application designed to predict the risk of a heart attack based on user input. The application utilizes a machine learning model to provide predictions and is built using Streamlit.
 
@@ -41,22 +41,40 @@ Data Input:
 The application requires the following health measurements to predict heart attack risk:
 
 Age
+
 Sex
+
 Chest pain type (cp)
+
 Resting blood pressure (trtbps)
+
 Cholesterol level (chol)
+
 Fasting blood sugar (fbs)
+
 Resting electrocardiographic results (restecg)
+
 Maximum heart rate achieved (thalachh)
+
 Exercise-induced angina (exng)
+
 ST depression induced by exercise relative to rest (oldpeak)
+
 The slope of the peak exercise ST segment (slp)
+
 Number of major vessels (caa)
+
 Thalassemia (thall)
+
 How It Works
+
 Data Input: Users input their health measurements via the sidebar.
+
 Data Scaling: The input data is scaled using the pre-trained scaler.
+
 Prediction: The scaled data is fed into the pre-trained machine learning model to get the prediction.
+
 Output: The application displays the risk of heart attack as either low or high, along with the probabilities.
 Disclaimer
+
 This application is intended to assist medical professionals in making a diagnosis. It should not be used as a substitute for professional medical advice, diagnosis, or treatment.
