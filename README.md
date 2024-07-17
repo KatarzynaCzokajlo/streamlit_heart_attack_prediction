@@ -6,8 +6,11 @@ This project is a web application designed to predict the risk of a heart attack
 Features:
 
 User-friendly interface for inputting personal health data
+
 Real-time prediction of heart attack risk
+
 Displays probabilities of low and high risk
+
 Supports medical professionals in making informed decisions
 
 Installation
